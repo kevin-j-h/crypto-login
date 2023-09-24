@@ -1,0 +1,191 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141111;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgb(128, 1, 232);
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700; /* Hover color */
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #222;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Button color */
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555; /* Hover color */
+}
+
+.wallet {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.39);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.wallet h2 {
+    margin-bottom: 20px;
+}
+
+.wallet-info p {
+    margin-bottom: 10px;
+}
+
+.wallet-actions .cta-button {
+    margin: 0 10px;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-left: 10px;
+}
+
+
+.view-button:hover {
+    background-color: #000000; 
+}
+
+
+.transactions, .watchlist {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.transactions h2, .watchlist h2 {
+    margin-bottom: 20px;
+}
+
+.transactions h4, .watchlist h4 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.search {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search h2 {
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buy-sell {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buy-sell h2 {
+    margin-bottom: 20px;
+}
+
+.buy-sell h4 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
